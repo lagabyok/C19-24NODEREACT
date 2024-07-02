@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="c19.css">
+<title>Equipo C19-24 - Node - React</title>
+
+</head>
+<body>
+<div class="container">
+    <h1>Equipo C19-24 - Node - React</h1>
+    <table id="team-table">
+        <thead>
+            <tr>
+                <th>Nombre</th>
+                <th>País de Residencia</th>
+                <th>Usuario en Discord</th>
+                <th>Teléfono</th>
+                <th>Hobbie</th>
+                <th>Disponibilidad horaria para hablar</th>
+                <th>Link de Calendly</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Aquí se insertarán dinámicamente los datos del equipo -->
+        </tbody>
+    </table>
+
+    <!-- Formulario para agregar integrantes -->
+    <div class="form-container">
+        <h2>Agregar Integrante</h2>
+        <input type="text" id="nombre" class="form-input" placeholder="Nombre">
+        <input type="text" id="pais" class="form-input" placeholder="País de Residencia">
+        <input type="text" id="discord" class="form-input" placeholder="Usuario en Discord">
+        <input type="text" id="telefono" class="form-input" placeholder="Teléfono">
+        <input type="text" id="hobbie" class="form-input" placeholder="Hobbie">
+        <input type="text" id="disponibilidad" class="form-input" placeholder="Disponibilidad horaria para hablar">
+        <input type="text" id="calendly" class="form-input" placeholder="Link de Calendly">
+        <button onclick="agregarIntegrante()" class="button">Agregar</button>
+    </div>
+</div>
+
+
+<script src="c19.js"></script>
+</body>
+</html>
